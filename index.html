@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tải File</title>
+    <link rel="icon" href="img/22.png" type="image/png" />
+
+     <link rel="stylesheet" href="trang1.css" />
+    <style>
+        body {
+      font-family: Arial, sans-serif;
+      background-color: #f178c4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      padding: 100px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 600px;
+      overflow-y: auto;
+      max-height: 90vh;
+    }
+
+    h1 {
+      color: #d6336c;
+    }
+
+    .download-button {
+      background-color: #ff6699;
+      color: white;
+      padding: 40px 50px;
+      margin: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .download-button:hover {
+      background-color: #702b43;
+      transform: scale(1.05);
+    }
+
+    .download-button svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+
+
+
+     .drawing-button {
+      background-color: #1fce28;
+      color: white;
+      padding: 10px 10px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .drawing:hover {
+      background-color: #103817;
+      transform: scale(1.05);
+    }
+    .drawing-button svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+   
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tải File</h1>
+        <p>Bấm nút dưới đây để tải file về:</p>
+        <h2>TRẦN VĂN NAM</h2>
+        <a href="img1/main.cpp" download class="download-button">
+            <!-- Icon tải xuống -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v4h4V9h3.67L12 2z"/>
+            </svg>
+        </a>
